@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExploreWorld - Tours & Travels</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="sticky">
+    <nav class="navbar">
+      <a href="index.html" class="logo">🌍 ExploreWorld</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero parallax">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="animate-fade">Discover the World with Us</h1>
+      <p class="animate-fade">Tailor-made journeys & unforgettable adventures.</p>
+      <a href="destinations.html" class="btn btn-glow">Start Exploring</a>
+    </div>
+  </section>
+
+  <!-- Featured Destinations -->
+  <section class="destinations">
+    <h2 class="section-title">🌟 Popular Destinations</h2>
+    <div class="cards">
+      <div class="card animate-up">
+        <img src="images/destination1.jpg" alt="Paris">
+        <div class="card-content">
+          <h3>Paris</h3>
+          <p>The city of love and lights.</p>
+        </div>
+      </div>
+      <div class="card animate-up">
+        <img src="images/destination3.jpg" alt="Bali">
+        <div class="card-content">
+          <h3>Bali</h3>
+          <p>Tropical paradise for relaxation.</p>
+        </div>
+      </div>
+      <div class="card animate-up">
+        <img src="images/destination2.jpg" alt="New York">
+        <div class="card-content">
+          <h3>New York</h3>
+          <p>The city that never sleeps.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta">
+    <h2>Ready to travel?</h2>
+    <p>Book your dream trip with ExploreWorld today!</p>
+    <a href="contact.html" class="btn">Book Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 ExploreWorld Tours & Travels</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
